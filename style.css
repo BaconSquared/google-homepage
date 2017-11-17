@@ -1,0 +1,54 @@
+body {
+	font-family: arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#main_logo {
+	display: inline;
+	height: 92px;
+	width: 272px;
+	text-align: center;
+	padding-top: 109px;
+	position: absolute;
+}
+
+.top_bar a {
+	color: #222;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	opacity: .75;
+	padding-left: 15px;
+	/*text-decoration: none;*/
+}
+
+.top_bar a:hover {
+	text-decoration: underline;
+}
+
+.top_bar {
+	margin: 24px 0 0 10px;
+	display: inline-block;
+	width: 100%;
+	font-size: 13px;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.mail .images {
+}
+
+.block {
+	background-color: #000;
+	opacity: .75;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+}
