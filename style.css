@@ -5,50 +5,72 @@ body {
 	box-sizing: border-box;
 }
 
-#main_logo {
-	display: inline;
-	height: 92px;
-	width: 272px;
-	text-align: center;
-	padding-top: 109px;
-	position: absolute;
-}
-
-.top_bar a {
-	color: #222;
-	font-family: arial, sans-serif;
-	font-size: 13px;
-	opacity: .75;
-	padding-left: 15px;
-	/*text-decoration: none;*/
-}
-
-.top_bar a:hover {
-	text-decoration: underline;
-}
-
-.top_bar {
-	margin: 24px 0 0 10px;
-	display: inline-block;
-	width: 100%;
-	font-size: 13px;
-}
-
-.link {
+a {
+	color: #000;
 	text-decoration: none;
+	font-size: 13px;
 }
 
-.link:hover {
+a:hover {
 	text-decoration: underline;
 }
 
-.mail .images {
+/* Top Navigation Bar */
+
+header {
+	margin: 22px 20px 0 25px;
+	font-size: 13px;
 }
 
-.block {
-	background-color: #000;
-	opacity: .75;
-	height: 20px;
-	width: 20px;
+header a {
 	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.gray {
+	opacity: 0.75;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+#apps {
+	width: 30px;
+	height: 30px;
+	background-image: url('sprite.png');
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+	opacity: 0.55;
+}
+
+#apps:hover {
+	opacity: 1;
+}
+
+#notifications {
+	width: 20px;
+	height: 20px;
+	background-image: url('sprite.png');
+	background-color: #000;
+	opacity: 0.55;
+	background-position: -194px -21px;
+	background-size: 528px 68px;
+	border-radius: 50%;
+}
+
+#notifications:hover {
+	opacity: 1;
+}
+
+#user {
+	width: 32px;
+	height: 32px;
+	background-image: url('photo.jpg');
+	border-radius: 50%;
 }
