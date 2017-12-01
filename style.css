@@ -181,7 +181,7 @@ footer {
 #bottom-left > a, #bottom-right > a {
   display: inline-block;
   font-size: 13px;
-  color: rgba(0,0,0,.54);
+  color: #666;
 }
 
 #bottom-left > a:hover, #bottom-right > a:hover {
@@ -189,6 +189,6 @@ footer {
 }
 
 .bottom-link-padding {
-  padding-left: 30px;
+  padding-left: 28px;
 }
 	
